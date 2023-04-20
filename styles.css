@@ -1,0 +1,113 @@
+body {
+  background-color: hsl(36, 100%, 99%);
+  font-family: "Inter", sans-serif;
+  color: hsl(240, 100%, 5%);
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 42px;
+}
+
+h2 {
+  font-weight: 700;
+  color: hsl(35, 77%, 62%);
+}
+
+h3 {
+  font-weight: 700;
+  color: hsl(233, 8%, 79%);
+}
+
+h5 {
+  font-weight: 700;
+  color: hsl(36, 100%, 99%);
+}
+
+p {
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+.menu-nav a {
+  color: hsl(236, 13%, 42%);
+  font-size: 15px;
+}
+
+.menu-nav a:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.menu-btn {
+  cursor: pointer;
+}
+
+/* main */
+.more-btn {
+  padding: 10px 30px;
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(36, 100%, 99%);
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 5px;
+}
+
+.more-btn:hover {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+}
+
+.news-box {
+  background-color: hsl(240, 100%, 5%);
+}
+
+.news-item {
+  cursor: pointer;
+}
+
+.news-item:hover .news-item-title {
+  color: hsl(35, 77%, 62%);
+}
+
+.news-box p {
+  color: hsl(36, 100%, 99%);
+}
+
+/* footer */
+.item-img {
+  flex-basis: 25%;
+}
+
+.item-img img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.item-text {
+  flex-basis: 70%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.top-item-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: hsl(240, 100%, 5%);
+}
+
+.item-text > p {
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-text:hover .top-item-title {
+  color: hsl(5, 85%, 63%);
+}
